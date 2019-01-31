@@ -1,0 +1,232 @@
+/*
+Template Name: Shanghai - Restaurant and Cafe One Page Html5 Template Documentation
+Author: coder_hunt
+Author URI: https://themeforest.net/user/coder_hunt
+*/
+
+
+
+/*---------------------------------
+    1. Typography
+-------------------------------------*/
+body {
+    color: #5c5c5c;
+    font-family: 'poppins', sans-serif;
+    font-size: 14px;
+}
+h1, h2, h3 {
+    font-family: 'raleway';
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+a {
+    color: #f37321;
+    font-size: 14px;
+    font-weight: 400;
+}
+span.red {
+    background-color: #d9534f;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 2px 4px;
+}
+ul li ul li {
+    margin-bottom: 15px;
+}
+img {width: 100%;height: auto;}
+
+/*---------------------------------
+    2. Home Section
+-------------------------------------*/
+.header-area {
+    width: 100%;
+    z-index: 999999;
+    position: relative;
+    background: #000;
+}
+/* 4-b - Navbar */
+.mainmenu ul.nav.navbar-nav {
+    float: none;
+    text-align: right;
+}
+.mainmenu ul.nav.navbar-nav li {
+    display: inline-block;
+    float: none;
+    position: relative;
+}
+.mainmenu ul.nav.navbar-nav > li > a {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 28px 15px;
+}
+.mainmenu ul.nav.navbar-nav > li:hover > a {
+    background: none;
+    color: #f24259;
+}
+.mainmenu ul.nav.navbar-nav > li > a:focus {
+    background: none;
+}
+.mainmenu ul.nav.navbar-nav > li.active > a {
+    color: #f24259;
+    font-weight: 400;
+    text-decoration: line-through;
+}
+/* 4-c - Logo */
+.header-area .logo {
+    padding: 24px 0;
+}
+.header-area .logo a {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.header-area .logo a span {
+    color: #f24259;
+}
+/* 4-d - Sticky Header */
+.header-area::after,
+.mainmenu .nav.navbar-nav a,
+.header-area .logo,
+.header-area .logo a {
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.is-sticky .header-area::after {
+    background-color: #000;
+    opacity: 1;
+    position: absolute;
+    left: 0;
+    top: -1px;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+}
+.is-sticky .mainmenu .nav.navbar-nav a {
+    color: #fff;
+    font-size: 13px;
+    padding: 23px 15px;
+}
+.is-sticky .header-area .logo {
+    padding: 20px 0;
+}
+.is-sticky .header-area .logo a {
+    color: #fff;
+    font-size: 18px;
+}
+
+/*---------------------------------
+    3. Top section
+----------------------------------*/
+#top-content h4 {
+    margin-top: 20px;
+}
+#top-content .create {
+    border-right: 1px solid #c5c5c5;
+    padding-left: 20px;
+}
+#top-content .create span {
+    font-weight: 900;
+}
+#top-content .update span {
+    color: #ff0000;
+    font-weight: 700;
+}
+
+
+/*---------------------------------
+    4. Using Theme section
+----------------------------------*/
+#using-theme h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 80px;
+    text-transform: capitalize;
+    margin-top: 80px;
+}
+#using-theme p {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+#using-theme .doc-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/*---------------------------------
+    4. Html Structure Section
+----------------------------------*/
+#html-structure .grid h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 80px;
+    text-transform: capitalize;
+}
+#html-structure .grid p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+#html-structure .grid h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+#html-structure .grid a {
+    display: block;
+    margin-bottom: 15px;
+}
+#html-structure .grid img {
+    margin-bottom: 20px;
+}
+
+/*---------------------------------
+    5. Css Structure Section
+----------------------------------*/
+#css-structure h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 80px;
+    text-transform: capitalize;
+}
+#css-structure p span {
+    font-weight: 900;
+    padding-right: 10px;
+}
+
+/*---------------------------------
+    5. Js Structure Section
+----------------------------------*/
+#js-structure p span {
+    font-weight: 900;
+    padding-right: 10px;
+}
+/*---------------------------------
+    6. Optimize Section
+----------------------------------*/
+#optimize h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    text-transform: capitalize;
+}
+#optimize > p {
+    margin-bottom: 20px;
+}
+#optimize > ul > li {
+    margin-bottom: 40px;
+}
+#optimize > ul li h5 {
+    font-size: 18px;
+    font-weight: 700;
+}
