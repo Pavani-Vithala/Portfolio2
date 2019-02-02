@@ -235,7 +235,7 @@ img {
 /* Parallax Page Background */
 #home.parallax {
     background-attachment: fixed;
-    background-image: url("assets/images/banner/banner-bg.jpg");
+   /* background-image: url("assets/images/banner/banner-bg.jpg");*/
     background-position: center center;
 }
 #particles-js{
@@ -458,7 +458,7 @@ source {
     6 - Start About Section
 ----------------------------------------- */
 .about {
-    background-image: url('assets/images/about/aboutbg.jpg');
+    /*background-image: url('assets/images/about/aboutbg.jpg');*/
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -514,7 +514,7 @@ source {
 -----------------------------------*/
 .fun-facts {
     background-attachment: fixed;
-    background-image: url("assets/images/fun-facts/fun-facts-bg.jpg");
+   /* background-image: url("assets/images/fun-facts/fun-facts-bg.jpg");*/
     background-position: center center;
     padding: 60px 0;
     position: relative;
@@ -813,7 +813,7 @@ source {
 ----------------------------------------- */
 .testimonial {
     background-attachment: fixed;
-    background-image: url("assets/images/testimonial/testimonial-bg.jpg");
+   /* background-image: url("assets/images/testimonial/testimonial-bg.jpg");*/
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -890,7 +890,7 @@ source {
 -----------------------------------*/
 #home.blog-banner {
     background-attachment: fixed;
-    background-image: url("assets/images/blog/blog-bg.jpg");
+    /*background-image: url("assets/images/blog/blog-bg.jpg");*/
     background-position: center center;
 }
 .breadcumb {

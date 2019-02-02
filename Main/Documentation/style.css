@@ -10,15 +10,15 @@ Author URI: https://themeforest.net/user/coder_hunt
     1. Typography
 -------------------------------------*/
 body {
-    color: #5c5c5c;
+    color:peru;
     font-family: 'poppins', sans-serif;
     font-size: 14px;
 }
 h1, h2, h3 {
     font-family: 'raleway';
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 700;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 a {
     color: #f37321;
